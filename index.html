@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Data Type</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <style>
+
+        </style>
+        <script src="./js/script.js"></script>
+        <script>
+
+        </script>
+    </head>
+    <body>
+        
+
+
+        <p class="myparagraph_1"></p>
+
+        <p class="myparagraph_2"></p>
+
+        <h1 id="myheading"></h1>
+
+        <span data-lucky="ccc"></span>
+
+        <script src="./js/script2.js"></script>
+        <script>
+            //JS single Line comment
+            /*
+            Multi LIne Comment
+            I can write my documentation
+            */        
+           // so we will create this name var to store the user first name
+            var name = "Lucky";
+            // I want to see the JS Output
+            console.log(typeof name);
+            console.log(typeof "unknown");
+            console.log(typeof 'something');
+            console.log(typeof `sad`);
+
+
+            // user height
+            var x = 5.6;
+            // I want to see the JS Output
+            alert(typeof x);
+            // Lets create a var to store the prodect quantitty
+            let y = 100;
+            // I want to see the JS code with another technique
+
+            document.querySelector('p.myparagraph_1').innerHTML = "Hii I am paragraph one";
+
+            document.querySelector('p.myparagraph_2').innerHTML = "Hii I am paragraph Two";
+
+            document.querySelector('#myheading').innerHTML = typeof x;
+            document.querySelector('span[data-lucky="ccc"]').innerHTML = typeof y;  //here y 
+
+
+        </script>
+    </body>
+</html>
